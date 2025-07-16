@@ -251,4 +251,12 @@
             alert.style.display = "none";
         });
     });
+
+    const alerts = document.querySelectorAll('.alert');
+
+    alerts.forEach((alert) => {
+        setTimeout(() => {
+            alert.style.display = "none";
+        }, 3000); 
+    });
 </script>

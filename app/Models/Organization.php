@@ -29,5 +29,5 @@ class Organization extends Model
         'organization_logo',
         'existing_partner_or_sponsor',
         'organization_status'
-    ];
+    ];  
 }
