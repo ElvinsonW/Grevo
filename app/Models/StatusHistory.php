@@ -14,6 +14,8 @@ class StatusHistory extends Model
         'changed_at',
     ];
 
+    protected $with = ['order'];
+
     public function order()
     {
         return $this->belongsTo(Order::class, 'order_id');

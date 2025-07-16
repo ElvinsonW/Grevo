@@ -211,7 +211,6 @@
             </button>
         </div>
     @endif
-
     <script>
         const carouselImages = document.getElementById('carouselImages');
         const prevBtn = document.getElementById('prevBtn');

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product List</title>
     @vite('resources/css/app.css')
 </head>
-
 <body class="p-4 bg-yellow-2">
     @include('components.sidebar')
 
@@ -52,7 +50,6 @@
                         $status = $growth >= 0 ? 'increase' : 'decrease';
 
                         $label = Str::title(str_replace('_', ' ', $key));
-
                     @endphp
 
                     <div class="bg-[#DDECD5] p-4 rounded-lg shadow">
@@ -143,7 +140,6 @@
     </div>
 
 </body>
-
 </html>
 
 
